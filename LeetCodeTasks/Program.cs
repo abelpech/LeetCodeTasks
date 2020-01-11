@@ -11,7 +11,11 @@ namespace LeetCodeTasks
     {
         static void Main(string[] args)
         {
-           
+            Task1 execute = new Task1();
+            int[] A = new int[6] { 10, 1, 5, 12, 16, 3 };
+            Console.WriteLine(execute.solution(A));
+
+            Console.ReadKey();
             Console.ReadKey();
         }
     }
